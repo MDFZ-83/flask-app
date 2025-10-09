@@ -1,0 +1,32 @@
+#  Flask App – DevOps Automation Project
+
+A sample **Flask web application** containerized with **Docker** and deployed using modern **DevOps practices**.  
+This project demonstrates the complete CI/CD workflow, including building, testing, containerization, and deployment to a cloud platform.
+
+---
+
+#  Overview
+
+This project is designed to showcase a basic **DevOps pipeline** applied to a Python Flask app.  
+It includes automation for building, testing, and deploying the application in a consistent environment using Docker and CI/CD tools.
+
+---
+
+#  Tech Stack
+
+- **Backend:** Flask (Python)  
+- **Containerization:** Docker  
+- **CI/CD:** GitHub Actions    
+- **Deployment:** AWS EC2   
+
+---
+
+# Docker Setup
+
+# Build the Docker image
+docker build -t flask-devops-app .
+
+# Run the container
+docker run -d -p 5000:5000 flask-devops-app
+
+---
