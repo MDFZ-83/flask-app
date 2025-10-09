@@ -7,17 +7,21 @@ This project demonstrates the complete CI/CD workflow, including building, testi
 
 #  Overview
 
-This project is designed to showcase a basic **DevOps pipeline** applied to a Python Flask app.  
-It includes automation for building, testing, and deploying the application in a consistent environment using Docker and CI/CD tools.
+This project showcases how to automate deployment of a Flask application using modern DevOps tools:
+- Build and containerize the app with **Docker**
+- Automate testing and deployment via **GitHub Actions**
+- Manage infrastructure using **Terraform**
+- Host the app on **AWS EC2**
 
 ---
 
 #  Tech Stack
 
-- **Backend:** Flask (Python)  
+- **Language:** Python (Flask)  
 - **Containerization:** Docker  
-- **CI/CD:** GitHub Actions    
-- **Deployment:** AWS EC2   
+- **Infrastructure as Code:** Terraform  
+- **CI/CD:** GitHub Actions  
+- **Cloud Platform:** AWS EC2    
 
 ---
 
@@ -30,3 +34,27 @@ docker build -t flask-devops-app .
 docker run -d -p 5000:5000 flask-devops-app
 
 ---
+
+# Terraform Deployment
+
+cd iteraform
+terraform init
+terraform plan
+terraform apply
+
+---
+
+# Installation
+
+git clone https://github.com/MDFZ-83/flask-app.git
+cd flask-app
+pip install -r requirements.txt
+python app.py
+
+---
+
+# Links
+- GitHub: https://github.com/MDFZ-83
+- Linkedin: www.linkedin.com/in/mohammad-feizi-408972348
+- Email: mfz.code83@gmail.com
+
